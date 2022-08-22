@@ -1,0 +1,96 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    display: flex;
+    vertical-align: center;
+    gap: 3rem;
+    background-color: #c576f6;
+    vertical-align: baseline;
+    cursor: pointer;
+    text-align: end;
+    justify-content: center;
+    align-items: center;
+}
+
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .head{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: small;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+.cover{
+    width: 100%;
+}
+.love{
+    width: 100%;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+}
+@media screen and (max-width: 600px) {
+    .love{
+        height: 100%;
+    }
+}
+.cat1{
+    width: 300px;
+}
+.cat2{
+    width: 300px;
+}
+.cat3{
+    width: 300px;
+}
+.cat4{
+    width: 300px;
+}
+.cat5{
+    width: 300px;
+}
+.cat6{
+    width: 300px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* margin-left: 5rem; */
+    gap: 1rem;
+}
+@media screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        }
+}
+p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.foot{
+    background-color: #c576f6;
+    text-align: center;
+    margin-top: 2rem;
+}
+.cat{
+    border: 4px dotted pink;
+}
